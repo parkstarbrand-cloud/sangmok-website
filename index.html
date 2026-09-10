@@ -598,7 +598,8 @@
     .mark-tagline{ font-size:.44rem; letter-spacing:.12em; }
     .topnav{ gap:.85rem; }
     .topnav a{ font-size:.62rem; letter-spacing:.1em; }
-    .header-right{ gap:.85rem; }
+    .header-right{ gap:.6rem; }
+    .header-cta{ padding:.4rem .8rem; font-size:.66rem; }
   }
 </style>
 </head>
@@ -971,7 +972,7 @@
         <input type="text" id="inqContact" name="연락처" required autocomplete="tel" />
       </div>
       <div class="inquiry-field">
-        <label for="inqMessage">어떤 일을 도와드릴까요?</label>
+        <label for="inqMessage">어떤 일을 도와드릴까요? (상세하게 기입할수록 상담의 질이 높아집니다.)</label>
         <textarea id="inqMessage" name="문의내용" rows="5" required></textarea>
       </div>
 
@@ -982,7 +983,7 @@
 
     <div class="inquiry-success" id="inquirySuccess" hidden>
       <p class="inquiry-success-title">잘 받았습니다.</p>
-      <p class="inquiry-success-body">남겨주신 내용을 확인한 뒤, 곧 연락드리겠습니다.</p>
+      <p class="inquiry-success-body">이제, 혼자가 아닙니다.<br>SANGMOK에서 곧 연락드리겠습니다.</p>
     </div>
   </div>
 </div>
